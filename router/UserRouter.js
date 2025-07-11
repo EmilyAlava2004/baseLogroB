@@ -11,4 +11,4 @@ rotuer.delete('/user/:id', verifyToken, deleteUsers);
 rotuer.post('/login', login);
 rotuer.put('/user/email/:id',verifyToken, updateUsersEmail);
 rotuer.put('/user/password/:id',verifyToken, updateUsersPassword);
-export const RouterUsuer = rotuer;
+export const RouterUser = rotuer;
